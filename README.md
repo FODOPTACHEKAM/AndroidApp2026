@@ -25,3 +25,5 @@ The application follows SOLID principles with:
 ```bash
 flutter pub get
 flutter run
+
+banana
