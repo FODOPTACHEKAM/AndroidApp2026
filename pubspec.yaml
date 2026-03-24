@@ -1,0 +1,43 @@
+name: grade_calculator_app
+description: A professional grade calculation application for students
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # File handling
+  file_picker: ^8.0.0
+  excel: ^2.0.0
+  
+  # PDF generation
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Utilities
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  share_plus: ^7.2.1
+  
+  # UI
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  animations: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
